@@ -1,26 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=e, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RickandMory</title>
+    <link rel="stylesheet" href="./style.css">
 
-    <title>Document</title>
+
+    <!-- boostrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- googlefonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
-<body>
 
-    <header>
-        <h1> API-Ricky </h1>
+<body class="content-body">
+
+    <div class="content-banner">
+
+    </div>
+
+    <header class="content-header">
+
+        <div class="search">
+            <span><img src="./imágenes/logo.png" alt=""></span>
+            <div class="inputSearch">
+                <input type="text" id="search">
+            </div>
+        </div>
+
+        <nav class="nav">
+            <ul class="nav-list">
+                <li class="nav-item"><button class="btn-header All" id="All">All</button></li>
+                <li class="nav-item"><button class="btn-header Alive" id="Alive">Alive</button></li>
+                <li class="nav-item"><button class="btn-header Dead" id="Dead">Dead</button></li>
+                <li class="nav-item"><button class="btn-header Unknown" id="unknown">Unknow</button></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
-        <div class="container" id="container">
-
+        <div class="content-main" id="content-main">
 
         </div>
-
     </main>
-    
-    <script src="./api.js"></script> 
+
+
+    <footer></footer>
+    <script src="./app.js"></script>
 </body>
+
 </html>
